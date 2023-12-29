@@ -20,6 +20,7 @@
 		ECB4FEB32B3ABFD20071900C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB4FEB22B3ABFD20071900C /* Assets.xcassets */; };
 		ECB4FEB72B3ABFD20071900C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB4FEB62B3ABFD20071900C /* Preview Assets.xcassets */; };
 		ECD0F79D2B3E9EC1002CCE33 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD0F79C2B3E9EC1002CCE33 /* FavoriteButton.swift */; };
+		ECD0F7A12B3EA7BE002CCE33 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD0F7A02B3EA7BE002CCE33 /* HexagonParameters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		ECB4FEB42B3ABFD20071900C /* Landmarks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Landmarks.entitlements; sourceTree = "<group>"; };
 		ECB4FEB62B3ABFD20071900C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ECD0F79C2B3E9EC1002CCE33 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		ECD0F7A02B3EA7BE002CCE33 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				ECB4FEB02B3ABFD00071900C /* ContentView.swift */,
 				ECD0F79F2B3EA093002CCE33 /* Helper */,
 				ECD0F79E2B3EA075002CCE33 /* Lamdmarks */,
+				ECD0F7A02B3EA7BE002CCE33 /* HexagonParameters.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				EC2509E32B3AF0C000B2A581 /* MapView.swift in Sources */,
 				ECB4FEAF2B3ABFD00071900C /* LandmarksApp.swift in Sources */,
 				ECD0F79D2B3E9EC1002CCE33 /* FavoriteButton.swift in Sources */,
+				ECD0F7A12B3EA7BE002CCE33 /* HexagonParameters.swift in Sources */,
 				EC70ADE42B3C463F00B14039 /* LandmarkList.swift in Sources */,
 				EC70ADE62B3C48DC00B14039 /* LandmarkDetail.swift in Sources */,
 				EC2509E12B3AEF6400B2A581 /* CircleImage.swift in Sources */,
