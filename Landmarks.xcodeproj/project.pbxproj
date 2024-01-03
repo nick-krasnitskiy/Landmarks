@@ -31,6 +31,7 @@
 		ECD0F7B72B44834F002CCE33 /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD0F7B32B44834F002CCE33 /* HikeGraph.swift */; };
 		ECD0F7B82B44834F002CCE33 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD0F7B42B44834F002CCE33 /* HikeDetail.swift */; };
 		ECD0F7B92B44834F002CCE33 /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD0F7B52B44834F002CCE33 /* HikeView.swift */; };
+		ECD0F7BB2B457C76002CCE33 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD0F7BA2B457C76002CCE33 /* CategoryHome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		ECD0F7B32B44834F002CCE33 /* HikeGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
 		ECD0F7B42B44834F002CCE33 /* HikeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 		ECD0F7B52B44834F002CCE33 /* HikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
+		ECD0F7BA2B457C76002CCE33 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				ECD0F79F2B3EA093002CCE33 /* Helper */,
 				ECD0F79E2B3EA075002CCE33 /* Lamdmarks */,
 				ECD0F7AA2B42DF9D002CCE33 /* Badges */,
+				ECD0F7BC2B457C82002CCE33 /* Categories */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -185,6 +188,14 @@
 			path = Hikes;
 			sourceTree = "<group>";
 		};
+		ECD0F7BC2B457C82002CCE33 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				ECD0F7BA2B457C76002CCE33 /* CategoryHome.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -258,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECB4FEB12B3ABFD00071900C /* ContentView.swift in Sources */,
+				ECD0F7BB2B457C76002CCE33 /* CategoryHome.swift in Sources */,
 				ECD0F7B72B44834F002CCE33 /* HikeGraph.swift in Sources */,
 				ECD0F7A92B42DE9B002CCE33 /* Badge.swift in Sources */,
 				EC2509E32B3AF0C000B2A581 /* MapView.swift in Sources */,
